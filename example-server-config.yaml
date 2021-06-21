@@ -1,0 +1,23 @@
+max_concurrent_by_disk: 1
+plots_directories:
+  - /path/to/hdd1/
+  - /path/to/hdd2/
+
+sentry:
+  enabled: False
+  link: ""
+  rate: 1.0
+
+api:
+  host: 0.0.0.0
+  port: 2122
+
+ftp:
+  host: 0.0.0.0
+  port: 2121
+  user: user
+  password: password
+
+redis:
+  host: 127.0.0.1
+  port: 6379

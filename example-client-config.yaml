@@ -1,0 +1,15 @@
+max_concurrent_archive: 2
+plots_directories:
+  - /ptah/to/plots/
+
+sentry:
+  enabled: False
+  link: ""
+  rate: 1.0
+
+archive_hosts:
+  - host: 127.0.0.1
+    api_port: 2122
+    ftp_port: 2121
+    ftp_user: user
+    ftp_password: password
